@@ -9,10 +9,7 @@ const container = document.getElementById('root')
 const root = createRoot(container)
 root.render(
   <React.StrictMode>
-    <App
-      gqlUri={'http://localhost:3001/graphql'}
-      entities={[Example]}
-    />
+    <App gqlUri={'http://localhost:3001/graphql'} entities={[Example]} />
   </React.StrictMode>,
 )
 

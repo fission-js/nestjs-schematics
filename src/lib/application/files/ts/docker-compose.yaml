@@ -2,7 +2,7 @@ version: '3'
 
 services:
   db:
-    container_name: rashidov-app
+    container_name: ${PROJECT_NAME}
     image: postgres:13
     environment:
       POSTGRES_DB: ${PG_DB_NAME}
